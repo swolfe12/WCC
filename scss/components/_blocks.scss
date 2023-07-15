@@ -1,0 +1,122 @@
+.blocks {
+	display: block;
+	padding-top: 100px;
+
+}
+
+
+.block {
+	//border-radius: 8px;
+    position: relative;
+    margin-right: 20px;
+    height: 200px;
+	width: 200px;
+	opacity:.9;
+
+	img {
+		width: 300px;
+		height: 300px;
+		margin: auto auto;	
+		opacity: 1;
+		display: block;
+	}
+
+	a {
+		width: 100%;
+		display: block;
+	}	
+
+}
+
+
+@media(max-width: $xsmall){
+	.blocks {
+		display: block;
+		padding-top: 0px;
+	}
+	.block {
+		margin: 40px auto;
+		height: 350px;
+		width: 350px;
+		img {
+			width: 300px;
+			height: 300px;
+		}
+	}
+}
+@media(min-width: $xsmall) and (max-width: $small){
+	.blocks {
+		display: block;
+		padding-top: 0px;
+	}
+	.block {
+		margin: 40px auto;
+		height: 350px;
+		width: 350px;
+		img {
+			width: 300px;
+			height: 300px;
+		}
+	}
+}
+@media(min-width: $small) and (max-width: $medium){
+	.blocks {
+		display: block;
+		padding-top: 0px;
+	}
+	.block {
+		margin: 40px auto;
+		height: 400px;
+		width: 400px;
+		img {
+			width: 400px;
+			height: 400px;
+		}
+	}
+}
+@media(min-width: $medium) and (max-width: $large){
+	.blocks {
+		display: flex;
+		padding-top: 20px;
+	}
+	.block {
+		margin: auto auto;
+		height: 320px;
+		width: 320px;
+		img {
+			width: 300px;
+			height: 300px;
+		}
+	}
+}
+@media(min-width: $large){
+	.blocks {
+		display: flex;
+		padding-top: 20px;
+	}
+	.block {
+		margin: auto auto;
+		height: 380px;
+		width: 380px;
+		img {
+			width: 350px;
+			height: 350px;
+		}
+	}
+}
+
+/*
+#b1 {
+	//background: url('../assets/img/grace.PNG');
+	//background-size: contain;
+}
+
+#b2 {
+	//background: url('../assets/img/La Roca logo.JPG');
+	//background-size: contain;
+}
+
+#b3 {
+	//background: url('../assets/img/boyscouts.jpg');
+	//background-size: contain;
+}*/

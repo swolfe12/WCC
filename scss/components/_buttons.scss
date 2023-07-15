@@ -1,0 +1,41 @@
+
+.primary {
+	background-color: $moss;
+	color: $white;
+	font-family: unisans;
+	padding: 10px;
+	width: 100%;
+	text-transform: uppercase;
+	font-size: 30px;
+	border: none;
+	&:hover{
+		background-color: transparent;
+		color: $moss;
+		border: 3px solid $moss;
+		font-weight: bold;
+	}
+}
+
+.secondary {
+	background: transparent;
+	border: 3px solid white;
+	color: white;
+	font-family: unisans;
+	height: 60px;
+	width: 100%;
+	text-transform: uppercase;
+	font-size: 30px;
+
+		&:hover {
+		background: $white;
+		color: black;
+
+	}
+}
+
+.btn-container {
+	padding: 100px 50px 0px 50px;
+	width: 70%;
+	position: relative;
+	margin: auto auto;
+}
